@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 
 // Enable CORS for requests from http://localhost:3000 (your React app)
-app.use(cors({ origin: 'https://bajaj-finserv-frontend-21-bai-10442-hoxi.vercel.app/' }));
+app.use(cors({ origin: 'https://bajaj-finserv-frontend-21-bai-10442-hoxi.vercel.app' }));
 
 app.use(bodyParser.json());
 
